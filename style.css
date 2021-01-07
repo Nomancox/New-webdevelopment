@@ -1,8 +1,16 @@
 body{
+    margin: 0;
     font-family: 'Xanh Mono', monospace;
 }
 h1{
     font-size: 50px;
+    .h
+}
+.heading-highlight{
+    color: rgb(25, 0, 255);
+}
+.word-highlight{
+    color: turquoise;
 }
 .name-highlight{
     color: rgb(80, 189, 8);
@@ -20,5 +28,40 @@ h1{
     padding-left: 1%;
 }
 .half-width img{
-    width: 100%;
+    width: 50%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.section{
+    height: 200p;
+}
+}
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: yellow;
+}
+.link-Box{
+    text-decoration: none;
+    background-color: rgb(71, 255, 71);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: orangered;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 1/3%;
+}
+.row.row.::afters{
+    content: normal;
+    clear: both;
+    display: table;
+    margin: 2px;
 }
